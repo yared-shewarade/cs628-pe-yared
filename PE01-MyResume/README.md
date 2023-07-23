@@ -1,10 +1,12 @@
 # Create the project:
 
 Set up a new React project using Create React App by running the following command in your terminal:
-'npx create-react-app my-resume'
+              
+              'npx create-react-app my-resume'
 
 Change into the project directory:
-'cd my-resume'
+              
+              'cd my-resume'
 
 ## Create the Resume Component and CSS files:
 
@@ -25,7 +27,8 @@ Open App.js and replace its content with the following:
 ### Run the application:
 
 Save all the files, go back to the project root directory, and start the development server by running:
-'npm start'
+            
+            'npm start'
 
 Open your browser and navigate to http://localhost:3000. You should see your "MyResume" web app with the resume content displayed.
 
