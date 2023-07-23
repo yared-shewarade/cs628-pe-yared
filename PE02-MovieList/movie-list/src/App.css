@@ -1,0 +1,22 @@
+/* App.css */
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.movie-list {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.genre-filter {
+  margin-bottom: 20px;
+}
+
+.movie-item {
+  background-color: #f7f7f7;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
