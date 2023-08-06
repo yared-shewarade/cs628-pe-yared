@@ -1,0 +1,50 @@
+.todo-list {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  .todo-list h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .todo-list .input-container {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  .todo-list input {
+    flex: 1;
+    padding: 5px;
+    font-size: 16px;
+  }
+  .todo-list button.add-task {
+    background-color: blue;
+    color: white;
+    border: none;
+  }
+  
+  .todo-list button.delete-task {
+    padding: 5px 10px;
+    font-size: 16px;
+    background-color: red;
+    border: none;
+    color: white;
+  }
+  
+  .todo-list ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .todo-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; /* Adjust the margin to your preference */
+  }
+  
+  .todo-list li button {
+    margin-left: 290px; /* Adjust the margin to your preference */
+  }
