@@ -1,0 +1,138 @@
+/* App.css */
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #FFFFFF;
+  color: #b30d0d;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.title {
+  font-size: 50px;
+  font-weight: bold;
+  margin:0;
+  text-align: right;
+  background-color: #00ccff;
+}
+/* AddCity.css */
+.add-city-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #24abc9;
+  color: #22a9ec;
+}
+.add-city-form {
+  background-color: #135147;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.add-city-heading {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.form-group {
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+.form-group label {
+  width: 100px;
+  font-size: 18px;
+}
+.form-group input {
+  flex: 1;
+  padding: 6px;
+  border: 1px solid #f1e8e8;
+  border-radius: 5px;
+  font-size: 14px;
+  background-color: #086c38; 
+  color: #e9f0e9;
+}
+.form-group button {
+  background-color: #3498db; 
+  color: #f0e9ed;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bolder;
+  transition: background-color 0.2s;
+}
+.form-group button:hover {
+  background-color: #2980b9; 
+}
+/* CityDetails.css */
+.city-details-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #2c3e50; 
+  color: #f0e9ed;
+}
+.city-details-card {
+  background-color: #345e48; 
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+.city-details-heading {
+  font-size: 24px;
+  color: #FF0000;
+  margin-bottom: 10px;
+}
+.city-details-text {
+  font-size: 18px;
+  color: #f0e9ed;
+  margin-bottom: 20px;
+}
+/* CitiesList.css */
+.cities-list-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #00FF00;
+  color: #800080;
+}
+.cities-list {
+  list-style: none;
+  padding: 0;
+}
+.cities-list li {
+  margin-bottom: 10px;
+}
+.city-details-link {
+  font-size: 16px;
+  color: #FF0000;
+  text-decoration: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.city-details-link:hover {
+  text-decoration: underline;
+}
+.horizontal-nav {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  padding: 0;
+}
+
+.horizontal-nav li {
+  margin-right: 50px; /* Add some spacing between list items */
+}
